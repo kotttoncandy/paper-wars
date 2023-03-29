@@ -4900,7 +4900,7 @@ vec4 frag(vec3 pos, vec2 uv, vec4 color, sampler2D tex) {
     background: [36, 81, 149],
     crisp: true
   });
-  var socket = lookup2("localhost:3000");
+  var socket = lookup2("https://paperwars.kotttoncandy.repl.co");
   var drawingsx = [];
   var drawingsy = [];
   var player_id = [];
